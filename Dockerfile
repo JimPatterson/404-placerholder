@@ -15,6 +15,7 @@ RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
 # include only our app
 FROM scratch
 COPY --from=build /go/src/app/404 /404
+COPY LICENSE /LICENSE
 
 # Don't run as root
 USER 65534:65534

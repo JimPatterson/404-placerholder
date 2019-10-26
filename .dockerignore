@@ -1,6 +1,5 @@
 # no point in getting docs
 README.md
-LICENSE
 
 # Don't need git in the build env
 .git

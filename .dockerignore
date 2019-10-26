@@ -1,0 +1,10 @@
+# no point in getting docs
+README.md
+LICENSE
+
+# Don't need git in the build env
+.git
+
+# The dockerfile isn't needed
+Dockerfile
+.dockerignore
